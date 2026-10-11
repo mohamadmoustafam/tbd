@@ -1,4 +1,4 @@
-const P = "photos/";
+const P = "";
 const PHOTO_ASSETS = {
   pride: P + "WhatsApp Image 2026-10-11 at 1 11.46.38 PM.jpeg",
   nightMemory: P + "WhatsApp Image 2026-10-11 at 11.46.38 PM 2.jpeg",
