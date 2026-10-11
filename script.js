@@ -14,137 +14,220 @@ const PHOTO_ASSETS = {
   siblings: P + "WhatsApp Image 2026-10-11 at 11.49.44 PM 9.jpeg",
 };
 
+
 const ALT = {
   pride:
-    "A young man holding flowers and a certificate, embraced by a woman in teal",
+    "Tasnim embracing her younger brother during a special graduation memory",
+
   nightMemory:
-    "A dark night scene with bright lights overhead and people in the foreground",
+    "A treasured nighttime memory beneath bright lights",
+
   togetherSelfie:
-    "Tasnim and her younger brother in a daytime selfie under a blue sky",
+    "Tasnim and her younger brother taking a selfie beneath a clear blue sky",
+
   togetherOutdoor:
-    "Tasnim and her younger brother outdoors near greenery and palm trees",
-  tasnimCar: "Tasnim in a car, wearing a red headscarf and making a peace sign",
-  tasnimCafe: "Tasnim smiling at an outdoor café, holding a drink",
-  treatmentDay: "Tasnim smiling in a corridor, wearing a light headscarf",
+    "Tasnim and her younger brother together outdoors near palm trees",
+
+  tasnimCar:
+    "Tasnim smiling inside a car and making a peace sign",
+
+  tasnimCafe:
+    "Tasnim smiling at an outdoor café while holding a drink",
+
+  treatmentDay:
+    "Tasnim smiling on the final day of her treatment injections",
+
   familyNight:
-    "Adults and a child embracing outdoors at night under bright lights",
-  celebration: "A group photo at a graduation-style event near a stage",
-  happiestMoment: "Tasnim, her younger brother and a child embracing indoors",
+    "A warm family memory outdoors at night beneath glowing lights",
+
+  celebration:
+    "A cherished family photograph during a graduation celebration",
+
+  happiestMoment:
+    "Tasnim sharing a precious family moment with her loved ones",
+
   familyOutdoor:
-    "A group of adults and a child outdoors with palm trees behind",
+    "A beautiful family memory outdoors among palm trees",
+
   siblings:
-    "A group at an indoor decorated event, with several adults and a small child",
+    "A treasured photograph of family members together at a celebration",
 };
 
 const CH = [
   {
     k: "pride",
-    tag: "The Moments We Keep",
-    h: "Some Moments Hold More Than a Photograph",
-    t: "There are moments I look back on and realize that what made them beautiful was never just what happened. It was who stood beside me. Some memories carry pride, some carry joy, and some quietly remind me how lucky I am to have you in my life.",
-    c: "Some of my favorite memories have you standing somewhere inside them.",
-    ar: "بعض اللحظات لا تبقى في الذاكرة بصورتها، بل بمن شاركنا إيّاها.",
+    tag: "Chapter I · The Moments We Keep",
+    h: "Some Moments Are Beautiful Because You Were There",
+
+    t: "When I look back at the moments that made me proud, happy, or simply grateful to be alive, I often find you somewhere in them.\n\nAnd I think that's one of the most beautiful things about having you as my sister.\n\nYou have been there for moments that mattered to me, sharing my happiness as though it were your own.\n\nSometimes I wonder whether you realize how much your presence means. How something as simple as having you beside me can turn an ordinary memory into one I never want to forget.\n\nBecause years from now, I might forget the little details of that day.\n\nBut I will never forget how it felt to have you there.",
+
+    c: "Some moments become unforgettable simply because you were part of them.",
+
+    ar: "حين أستعيد أجمل لحظاتي، أجدكِ حاضرةً في كثيرٍ منها. وما أجمل أن يكون للإنسان أختٌ تشاركه فرحته وكأنّها فرحتها هي.",
+
     cls: "ivory polaroid-ch",
   },
+
   {
     k: "nightMemory",
-    tag: "Little Pieces of Our Story",
-    h: "Even the Nights Become Memories",
-    t: "I don't think every beautiful memory needs a perfect photograph. Sometimes the lights are too bright, the world is moving, and the picture cannot capture everything. But I remember the feeling. And sometimes, that is more than enough.",
-    c: "Not every memory needs to be perfectly clear to remain beautiful.",
+    tag: "Chapter II · Little Pieces of Our Story",
+    h: "Some Nights Never Really End",
+
+    t: "There are nights that disappear from the calendar but never really leave our hearts.\n\nMaybe the lights fade. Maybe the world moves on. Maybe we forget exactly what we said or what made us laugh.\n\nBut somehow, the feeling remains.\n\nAnd when I think of the memories we've made together, I realize that I don't need every photograph to be perfect.\n\nI only need to remember that, for a little while, we were there, living a moment that would one day become something precious.\n\nI hope life gives us countless more nights worth remembering.",
+
+    c: "The lights may fade, but some memories keep glowing.",
+
+    ar: "تنتهي بعض الليالي، لكنّ أثرها الجميل يبقى في القلب طويلًا. أتمنى أن تجمعنا الحياة بلحظاتٍ كثيرةٍ أخرى تستحقّ أن نتذكّرها.",
+
     cls: "navy night",
   },
+
   {
     pair: true,
-    tag: "The Beautiful Simplicity of Us",
+    tag: "Chapter III · The Beautiful Simplicity of Us",
     cls: "cream",
+
     a: {
       k: "togetherSelfie",
-      h: "Nothing Extraordinary. And Everything.",
-      t: "Sometimes I think the most precious part of having you in my life is how ordinary everything can feel when we're together. We don't need a special occasion, a perfect plan, or the right words. Sometimes, simply being there is enough.",
-      c: "Just us. And somehow, that has always been enough.",
-      ar: "معكِ، لا تحتاج اللحظات البسيطة إلى شيءٍ آخر كي تصبح عزيزة.",
+
+      h: "Just Being With You Is Enough",
+
+      t: "One of my favorite things about us is that we don't need anything extraordinary to enjoy being together.\n\nWe don't need a special occasion or a perfectly planned day.\n\nSometimes it's just a conversation, a little laughter, a photograph, or a moment that neither of us realizes will become a memory.\n\nAnd somehow, those are the moments I treasure most.\n\nBecause with you, happiness has never needed to be complicated.\n\nSometimes, all it takes is being your little brother, standing beside you, knowing that I belong there.",
+
+      c: "No special occasion. Just my sister, and a moment worth keeping.",
+
+      ar: "معكِ، تصبح أبسط اللحظات أجمل ممّا نتوقّع. لا نحتاج إلى مناسبةٍ كبيرة؛ يكفيني أن أكون أخاكِ الصغير، وأن أكون بقربكِ.",
     },
+
     b: {
       k: "togetherOutdoor",
-      h: "The Memories I Never Want to Lose",
-      t: "I wish I could keep every ordinary moment exactly as it was. Not because anything extraordinary happened, but because there are people whose presence makes even the simplest day worth remembering. You have always been one of those people.",
-      c: "If I could keep a thousand little moments, I would keep the ones with you.",
+
+      h: "The Little Moments I Wish I Could Keep",
+
+      t: "If someone asked me which memories I would save forever, I don't think I would choose only the biggest celebrations.\n\nI would save the little moments too.\n\nThe times we stood beside each other without thinking about how quickly life moves.\n\nThe ordinary photographs. The conversations that went nowhere and somehow meant everything. The moments when being together felt completely natural.\n\nBecause I know that one day, when I miss you, these are the memories I will return to.\n\nAnd every time, they will remind me how lucky I am that you're my sister.",
+
+      c: "If I could collect a thousand memories, I would always save the ones with you.",
+
+      ar: "لو كان بوسعي أن أحفظ بعض اللحظات من مرور الزمن، لاخترتُ كثيرًا من تلك اللحظات البسيطة التي جمعتني بكِ.",
     },
   },
+
   {
     k: "tasnimCar",
-    tag: "The Person Behind the Smile",
-    h: "The Lightness You Bring",
-    t: "There is a playful side of you that I love. A softness that lives alongside your strength. You can be thoughtful and serious, and still carry this beautiful ability to make life feel lighter. I hope you never lose that part of yourself.",
-    c: "Your softness has always been one of your strengths.",
-    ar: "أحبّ فيكِ تلك الروح التي تجمع بين رقّة القلب وخفّة الظلّ.",
+    tag: "Chapter IV · The Person Behind the Smile",
+    h: "Please Never Lose This Part of You",
+
+    t: "There's something about your personality that I hope life never changes.\n\nThat playful side of you. The way you can be thoughtful and responsible, yet still find room to laugh, joke, and enjoy the smallest things.\n\nI love that you can be sensitive without losing your warmth, and strong without losing your softness.\n\nYou don't always realize it, but the happiness you bring into a room can stay with people long after you've left.\n\nAnd I hope that no matter how many responsibilities life places on your shoulders, you always find time to be that version of yourself.\n\nThe one who smiles freely.\n\nThe one who laughs without worrying.\n\nThe one who remembers that she deserves happiness, too.",
+
+    c: "Never let the weight of life take away the light in your heart.",
+
+    ar: "أحبّ فيكِ روحكِ المرحة، وقلبكِ الرقيق، وقدرتكِ على أن تجمعي بين النضج والعفويّة. أتمنى ألّا تُنسيكِ مسؤوليات الحياة أنّ لكِ حقًّا في الفرح أيضًا.",
+
     cls: "cream soft",
   },
+
   {
     k: "tasnimCafe",
-    tag: "The Kindness That Doesn't Ask for Attention",
-    h: "The Quiet Beauty of Who You Are",
-    t: "You have this beautiful way of helping people understand themselves without making them feel small. You listen. You offer possibilities. You leave room for others to choose. And somehow, you make people feel safer simply by being yourself.",
-    c: "Some people make the world gentler without ever asking for credit.",
-    ar: "أجمل ما فيكِ أنّكِ تمنحين الآخرين الطمأنينة، دون أن تسلبيهم حرّيّة الاختيار.",
+    tag: "Chapter V · The Mind I Think With",
+    h: "You Understand Me Without Trying to Change Me",
+
+    t: "I don't think I've ever properly thanked you for the way you listen to me.\n\nWhen I come to you confused, worried, or unsure about something, you don't immediately decide what my life should look like.\n\nYou listen first.\n\nYou try to understand what I'm feeling, even when I struggle to explain it myself.\n\nAnd instead of giving me one answer and expecting me to follow it, you help me see the different possibilities.\n\nYou give me advice without taking away my freedom.\n\nYou make me feel understood without making me feel judged.\n\nAnd that's why talking to you feels so different.\n\nYou are not simply someone I ask for advice.\n\nYou are the person who helps me understand my own thoughts.\n\nYou are my sister, my safe place, and in so many ways, the mind I think with.",
+
+    c: "Thank you for listening to understand, not listening to decide for me.",
+
+    ar: "أنتِ حياتي، والعقل الذي أفكّر به. معكِ لا أخشى أن أبوح بما في داخلي؛ لأنّكِ تُنصتين لتفهميني، لا لتحكمي عليّ. تمنحينني النصح، وتتركين لي حرّيّة الاختيار، وهذا من أثمن ما قدّمه لي قلبكِ.",
+
     cls: "cafe soft flip",
   },
+
   {
     k: "treatmentDay",
-    tag: "The Courage I Will Always Admire",
-    h: "I Wish I Had Been There for More",
-    t: "I know there were days I didn't see. Difficult moments you carried, fears you may never have spoken about, and a strength I can only begin to understand.\n\nAnd I wish I could have been there for more of it.\n\nBut there is one thing I will always be grateful for: I was there on that final day of your treatment injections.\n\nI got to stand near you in a moment that meant so much.\n\nI don't want you to think that I am proud of you only because you were strong. I am proud of you because you are you — through every version of yourself, including the ones that were tired, frightened, or simply trying to get through another day.\n\nYou never needed to prove your strength to deserve my love.",
-    c: "I could not be beside you through every chapter. But I will always be grateful that I was there for this one.",
-    ar: "كم تمنّيتُ لو كنتُ إلى جانبكِ في كلّ لحظةٍ صعبة. لكنّني سأظلّ ممتنًّا لأنّني كنتُ معكِ في ذلك اليوم. أنا فخورٌ بكِ، لا لأنّكِ كنتِ قويةً دائمًا، بل لأنّكِ أنتِ، بكلّ ما مررتِ به.",
+    tag: "Chapter VI · The Courage I Will Always Admire",
+    h: "I Wish I Could Have Held Your Hand Through It All",
+
+    t: "There is something I have carried in my heart for a long time.\n\nI wish I could have been there for more of your journey.\n\nFor the difficult days. For the moments when you were tired. For the times when you might have needed someone beside you, even if you didn't say it out loud.\n\nI know there are parts of what you went through that I will never fully understand.\n\nAnd I know that being strong doesn't mean you were never afraid, never exhausted, or never wished things were easier.\n\nBut there is one day I will always hold close to my heart.\n\nThe day of your final treatment injections.\n\nI was there.\n\nAnd I cannot explain how much that means to me.\n\nI am proud of you, Tasnim. So incredibly proud.\n\nBut I need you to know something even more important.\n\nYou never had to be brave every second for me to admire you.\n\nYou never had to hide your tears to be strong in my eyes.\n\nAnd you never had to overcome anything to deserve my love.\n\nI loved you before that chapter of your life, I loved you through it, and I will love you through every chapter still to come.\n\nI hope the days ahead are gentle with you.\n\nYou deserve that. More than you know.",
+
+    c: "I couldn't be there for every difficult day. But I will always be grateful I was there for this one.",
+
+    ar: "كم تمنّيتُ لو استطعتُ أن أمسك بيدكِ في كلّ لحظةٍ صعبة، وأن أكون بقربكِ حين أثقل التعب قلبكِ. لكنّني سأظلّ ممتنًّا لأنّني كنتُ معكِ في ذلك اليوم الذي لن أنساه. أنا فخورٌ بكِ، لا لأنّكِ لم تتعبي أو تخافي، بل لأنّكِ أنتِ، بكلّ ما مررتِ به. وأسأل الله أن تكون أيّامكِ القادمة أرحم وأجمل.",
+
     cls: "tribute",
     plain: true,
   },
+
   {
     k: "familyNight",
-    tag: "The Little World of Love",
-    h: "The People Who Make Life Warmer",
-    t: "There is something beautiful about seeing the people we love surrounded by their own little world of love. The moments that might look ordinary from the outside can mean everything to the people living them.",
-    c: "The smallest moments together often become the biggest memories.",
+    tag: "Chapter VII · The Little World of Love",
+    h: "You Deserve All the Love You Give",
+
+    t: "One of the things I wish for you most is a life filled with the same warmth you give to everyone around you.\n\nI hope your home is always a place where you can rest, laugh, be yourself, and feel loved without having to earn it.\n\nI hope there are countless evenings filled with familiar voices, little stories, and the kind of happiness that doesn't need to announce itself.\n\nBecause you spend so much of your heart caring about the people you love.\n\nAnd I hope you never forget that you deserve to be cared for, too.\n\nNot only as a sister.\n\nNot only as a wife or a mother.\n\nBut simply as Tasnim.\n\nThe person whose happiness matters just as much as everyone else's.",
+
+    c: "May the love you give so freely always find its way back to you.",
+
+    ar: "أتمنى أن يعود إليكِ من الحبّ والحنان أضعاف ما تمنحينه للآخرين، وأن تجدي دائمًا من يطمئنّ على قلبكِ كما تطمئنّين على قلوب من تحبّين.",
+
     cls: "navy night flip",
   },
+
   {
     k: "celebration",
-    tag: "The People Who Feel Like Home",
-    h: "Being There Matters",
-    t: "Some photographs remind me of celebrations. Others remind me of the people who made those moments feel complete. When I look back, it is often the faces around me that matter most.",
-    c: "The best part of a beautiful day is often who shares it with us.",
+    tag: "Chapter VIII · The People Who Feel Like Home",
+    h: "The Best Part Was Having You There",
+
+    t: "I think the older we get, the more we understand that the most valuable part of a celebration isn't always the celebration itself.\n\nIt's the people who show up.\n\nThe familiar faces. The proud smiles. The little moments when you look around and realize that the people you love are sharing something important with you.\n\nAnd when I look at photographs like this, I don't just remember an event.\n\nI remember belonging.\n\nI remember how beautiful it feels to have people who care about your happiness.\n\nAnd I hope we get to stand beside each other through so many more milestones, both big and small.",
+
+    c: "Every celebration feels a little more complete when the people we love are there.",
+
+    ar: "ليست المناسبات وحدها ما يجعل الذكريات جميلة، بل الوجوه التي تشاركنا الفرح، والقلوب التي تفرح لنا بصدق.",
+
     cls: "album",
     seal: true,
   },
+
   {
     k: "happiestMoment",
-    tag: "One of My Happiest Moments",
-    h: "If Happiness Had a Photograph",
-    t: "I don't know if I have ever told you how much moments like this mean to me.\n\nNot because everything was perfect.\n\nNot because anything extraordinary had to happen.\n\nBut because I was there, with you, sharing a moment I wished I could hold on to a little longer.\n\nSome of the happiest moments of my life have been this simple.\n\nAnd this is one of the memories I will always keep close.",
-    c: "One of the happiest moments of my life.",
-    ar: "لو استطعتُ أن أحتفظ بلحظةٍ إلى الأبد، لكانت بعض لحظاتنا معًا من أوّل ما أختار.",
+    tag: "Chapter IX · The Beautiful Family You've Built",
+    h: "A Beautiful Wife, A Wonderful Mother, And Forever My Second Mom",
+
+    t: "When I look at the family you've built, I see so much love.\n\nI see a wonderful wife, someone who brings warmth, understanding, and tenderness into the life she shares with her husband.\n\nI see an incredible mother, giving her son the kind of love that makes a child feel safe, cherished, and deeply understood.\n\nAnd then I see something that means even more to me.\n\nI see the same Tasnim who has always been so much more than an older sister in my life.\n\nBecause long before you became a mother, you were already like a mother to me.\n\nYou cared about me. You worried about me. You guided me when I needed direction, and you listened when all I needed was someone to understand.\n\nYou gave me a kind of comfort that I never had to ask for.\n\nAnd even after building your own family, that part of you never disappeared.\n\nYou are still the person I can come to when life feels confusing.\n\nStill the person whose words bring me peace.\n\nStill the sister whose love has always carried something of a mother's tenderness.\n\nYour husband and your son are blessed to have you in their lives.\n\nAnd I hope you know that I feel just as blessed.\n\nBecause no matter how old I get, no matter how far life takes us, a part of me will always be your little brother.\n\nThe one who found not only a sister in you, but a second mother, a safe place, and a love he will never outgrow.",
+
+    c: "A wonderful wife, an extraordinary mother, and the second mother my heart will always know.",
+
+    ar: "كنتِ لي أمًّا ثانية قبل أن تصبحي أمًّا، وما زلتِ كذلك حتى اليوم. أراكِ زوجةً رائعةً وأمًّا حنونةً، وأرى فيكِ أيضًا أختي التي أحاطتني بحبٍّ يشبه حبّ الأم، واهتمامٍ لم أكن بحاجةٍ إلى طلبه. كبرنا، وتغيّرت تفاصيل حياتنا، لكنّني سأبقى دائمًا أخاكِ الصغير الذي يجد فيكِ الأمان. أتمنى أن يمنحكِ الله من السعادة والطمأنينة بقدر ما منحتِني من حبٍّ وحنان.",
+
     cls: "hero",
     hero: true,
   },
+
   {
     k: "familyOutdoor",
-    tag: "The People We Carry With Us",
-    h: "Home Is Sometimes a Collection of People",
-    t: "Over time, I have learned that home is not always a place. Sometimes it is the people we return to, the familiar voices, and the memories that keep reminding us where we belong.",
-    c: "Some people will always feel like home.",
+    tag: "Chapter X · The People We Carry With Us",
+    h: "Home Has Never Been Just a Place",
+
+    t: "I used to think that home was simply somewhere we belonged.\n\nBut the older I get, the more I realize that home can be a person.\n\nA familiar voice. A conversation that makes everything feel a little easier. Someone who understands you without needing a long explanation.\n\nAnd that's what you have always been to me.\n\nEven when we're far apart, even when life gets busy, even when we go a long time without talking, I never feel as though I've lost my place in your life.\n\nBecause when we speak again, everything feels natural.\n\nNo blame. No awkwardness. No need to explain the silence.\n\nJust us.\n\nAnd I think that's one of the safest, most beautiful kinds of love a person can have.",
+
+    c: "Some people feel like home, no matter how far away they are.",
+
+    ar: "لم يكن الأمان يومًا مرتبطًا بالمكان وحده؛ فقد يكون صوتًا نعرفه، أو قلبًا نطمئنّ إليه. وأنتِ من أولئك الذين لا تُغيّر المسافة مكانتهم في القلب.",
+
     cls: "cream soft wide",
   },
+
   {
     k: "siblings",
-    tag: "The Family We Carry With Us",
-    h: "The People Who Know Where We Began",
-    t: "There is something irreplaceable about the people who share the story of where we came from. Life may take us in different directions, and not every person can be present in every photograph. But family has a way of living far beyond the edges of a picture.",
-    c: "Not everyone we love is in every photograph. They are still part of the story.",
-    ar: "قد لا تجمعنا صورةٌ واحدة في كلّ مرّة، لكنّ المحبّة التي تجمعنا أوسع من حدود الصور.",
+    tag: "Chapter XI · The Family We Carry With Us",
+    h: "No Distance Can Rewrite Where We Belong",
+
+    t: "Family is a strange and beautiful thing.\n\nWe grow older. Our lives change. We build different routines, carry different responsibilities, and sometimes find ourselves separated by more distance than we ever expected.\n\nAnd not every person we love can be present in every photograph.\n\nBut that doesn't mean they stop being part of our story.\n\nBecause the people who share our beginnings carry a place in our hearts that time cannot easily touch.\n\nAnd when I think about you, I know that no matter how much life changes, I will never have to wonder whether you're still my sister in all the ways that matter.\n\nYou will always be.\n\nNot because we talk every day.\n\nNot because we're always in the same place.\n\nBut because some bonds don't need constant proof to remain real.\n\nOurs is one of them.",
+
+    c: "Not everyone we love is in every photograph. But they are always part of the story.",
+
+    ar: "قد تُفرّقنا المسافات، وتتغيّر تفاصيل أيّامنا، وقد لا تجمعنا الصور دائمًا، لكنّ المحبّة الصادقة لا تقاس بقرب الأماكن ولا بكثرة اللقاءات. ستبقين أختي، وسيبقى لكِ في قلبي مكانٌ لا يتغيّر.",
+
     cls: "spread flip",
   },
 ];
+
 
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;");
 const paras = (s) =>
